@@ -11,8 +11,6 @@
 		0790DD8623603FF00046AAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0790DD8523603FF00046AAC3 /* Assets.xcassets */; };
 		0790DD8923603FF00046AAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0790DD8723603FF00046AAC3 /* LaunchScreen.storyboard */; };
 		0790DD92236043550046AAC3 /* EmployeeDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0790DD90236043550046AAC3 /* EmployeeDataModel.xcdatamodeld */; };
-		0790DD96236047650046AAC3 /* EmployeeEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790DD94236047650046AAC3 /* EmployeeEntity+CoreDataClass.swift */; };
-		0790DD97236047650046AAC3 /* EmployeeEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790DD95236047650046AAC3 /* EmployeeEntity+CoreDataProperties.swift */; };
 		0790DD99236047F20046AAC3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790DD98236047F20046AAC3 /* CoreDataManager.swift */; };
 		0790DD9B23604B6B0046AAC3 /* ColorHexCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790DD9A23604B6B0046AAC3 /* ColorHexCode.swift */; };
 		0790DD9E23604B900046AAC3 /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790DD9C23604B900046AAC3 /* EmployeeListVC.swift */; };
@@ -22,6 +20,8 @@
 		0790DDA823604DAB0046AAC3 /* EmployeeCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790DDA623604DAB0046AAC3 /* EmployeeCVCell.swift */; };
 		0790DDA923604DAB0046AAC3 /* EmployeeCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0790DDA723604DAB0046AAC3 /* EmployeeCVCell.xib */; };
 		0790DDAD23604E860046AAC3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790DDAC23604E860046AAC3 /* CardView.swift */; };
+		4870037F2360A375009078AC /* EmployeeEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870037D2360A375009078AC /* EmployeeEntity+CoreDataClass.swift */; };
+		487003802360A375009078AC /* EmployeeEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870037E2360A375009078AC /* EmployeeEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,6 @@
 		0790DD8823603FF00046AAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0790DD8A23603FF00046AAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0790DD91236043550046AAC3 /* EmployeeDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmployeeDataModel.xcdatamodel; sourceTree = "<group>"; };
-		0790DD94236047650046AAC3 /* EmployeeEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmployeeEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		0790DD95236047650046AAC3 /* EmployeeEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmployeeEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		0790DD98236047F20046AAC3 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		0790DD9A23604B6B0046AAC3 /* ColorHexCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHexCode.swift; sourceTree = "<group>"; };
 		0790DD9C23604B900046AAC3 /* EmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListVC.swift; sourceTree = "<group>"; };
@@ -42,6 +40,8 @@
 		0790DDA623604DAB0046AAC3 /* EmployeeCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCVCell.swift; sourceTree = "<group>"; };
 		0790DDA723604DAB0046AAC3 /* EmployeeCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeCVCell.xib; sourceTree = "<group>"; };
 		0790DDAC23604E860046AAC3 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4870037D2360A375009078AC /* EmployeeEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmployeeEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4870037E2360A375009078AC /* EmployeeEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmployeeEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,7 @@
 			children = (
 				0790DD90236043550046AAC3 /* EmployeeDataModel.xcdatamodeld */,
 				0790DD98236047F20046AAC3 /* CoreDataManager.swift */,
-				0790DD94236047650046AAC3 /* EmployeeEntity+CoreDataClass.swift */,
-				0790DD95236047650046AAC3 /* EmployeeEntity+CoreDataProperties.swift */,
+				487003812360A3B4009078AC /* DBModel */,
 			);
 			path = "DBModel+CoreData";
 			sourceTree = "<group>";
@@ -156,6 +155,15 @@
 				0790DDA523604C8A0046AAC3 /* Add+Update+Details */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		487003812360A3B4009078AC /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				4870037D2360A375009078AC /* EmployeeEntity+CoreDataClass.swift */,
+				4870037E2360A375009078AC /* EmployeeEntity+CoreDataProperties.swift */,
+			);
+			path = DBModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,10 +241,10 @@
 			files = (
 				0790DD99236047F20046AAC3 /* CoreDataManager.swift in Sources */,
 				0790DDA323604C7F0046AAC3 /* EmployeeDetailsVC.swift in Sources */,
+				487003802360A375009078AC /* EmployeeEntity+CoreDataProperties.swift in Sources */,
 				0790DD7F23603FEE0046AAC3 /* AppDelegate.swift in Sources */,
-				0790DD97236047650046AAC3 /* EmployeeEntity+CoreDataProperties.swift in Sources */,
+				4870037F2360A375009078AC /* EmployeeEntity+CoreDataClass.swift in Sources */,
 				0790DDAD23604E860046AAC3 /* CardView.swift in Sources */,
-				0790DD96236047650046AAC3 /* EmployeeEntity+CoreDataClass.swift in Sources */,
 				0790DD9B23604B6B0046AAC3 /* ColorHexCode.swift in Sources */,
 				0790DD9E23604B900046AAC3 /* EmployeeListVC.swift in Sources */,
 				0790DDA823604DAB0046AAC3 /* EmployeeCVCell.swift in Sources */,

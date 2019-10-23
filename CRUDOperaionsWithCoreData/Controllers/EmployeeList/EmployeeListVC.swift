@@ -96,7 +96,18 @@ class EmployeeListVC: UIViewController {
 extension EmployeeListVC: UICollectionViewDataSource {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
+        var numOfSections: Int = 0
+        if self.arrEmployee.count > 0 {
+            numOfSections            = 1
+            collectionView.backgroundView = nil
+        } else {
+            let noDataLabel: UILabel  = UILabel(frame: CGRect(x: 0, y: 0, width: collectionView.bounds.size.width, height: collectionView.bounds.size.height))
+            noDataLabel.text          = "No Employee Found"
+            noDataLabel.textColor     = UIColor.gray
+            noDataLabel.textAlignment = .center
+            collectionView.backgroundView  = noDataLabel
+        }
+        return numOfSections
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
